@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+main {
+    background: url("https://pbs.twimg.com/media/EFUXqXEXYAgKQ_-.jpg:large") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.box {
+    width: 250;
+    height: 250;
+    border: solid 5px #0000;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: #23232e;
+    margin-left: 100px;
+    margin-right: 800px;
+    z-index: 2;
+}
+ 
+.border-radius {
+    border-radius: 10px;
+}
